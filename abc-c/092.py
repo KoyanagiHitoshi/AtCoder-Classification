@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# -*- conding: utf-8 -*-
+
+
+N=int(input())
+A=list(map(int,input().split()))+[0]
+A.insert(0,0)
+cost=0
+for i in range(N+1):
+    cost+=abs(A[i+1]-A[i])
+for i in range(1,N+1):
+    print(cost-abs(A[i+1]-A[i])-abs(A[i]-A[i-1])+abs(A[i+1]-A[i-1]))
+
