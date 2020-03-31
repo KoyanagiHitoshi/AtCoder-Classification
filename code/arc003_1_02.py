@@ -1,0 +1,1 @@
+print((1/int(input()))*sum("FDCBA".index(r) for r in input()))

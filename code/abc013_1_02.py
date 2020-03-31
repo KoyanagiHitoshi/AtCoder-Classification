@@ -1,0 +1,1 @@
+print(["A","B","C","D","E"].index(input())+1)

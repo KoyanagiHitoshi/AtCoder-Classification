@@ -1,0 +1,1 @@
+print(["ABC","ARC","AGC"][int(input())//50+8>>5])

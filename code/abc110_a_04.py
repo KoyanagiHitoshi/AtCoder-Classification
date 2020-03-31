@@ -1,0 +1,1 @@
+print(eval("+".join(sorted(input()))+"*10"))

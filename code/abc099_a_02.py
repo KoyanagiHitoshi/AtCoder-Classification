@@ -1,0 +1,1 @@
+print(['ABC','ABD'][int(input())>999])

@@ -1,0 +1,1 @@
+print(700+100*int(input().count("o")))
