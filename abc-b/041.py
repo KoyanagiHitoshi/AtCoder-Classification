@@ -1,4 +1,0 @@
-#!/usr/bin/env python
-# -*- conding: utf-8 -*-
-
-print(eval(input().replace(" ","*"))%(10**9+7))
