@@ -16,3 +16,11 @@ Python3 (3.4.3)
 $ git clone https://github.com/KoyanagiHitoshi/AtCoder.git
 ```
 
+## Licence
+
+[MIT](https://github.com/KoyanagiHitoshi/test/blob/master/LICENSE)
+
+## Author
+
+[KoyanagiHitoshi](https://github.com/KoyanagiHitoshi)
+
