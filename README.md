@@ -18,7 +18,7 @@ $ git clone https://github.com/KoyanagiHitoshi/AtCoder.git
 
 ## Licence
 
-[MIT](https://github.com/KoyanagiHitoshi/test/blob/master/LICENSE)
+[MIT](https://github.com/KoyanagiHitoshi/AtCoder/blob/master/LICENSE)
 
 ## Author
 
