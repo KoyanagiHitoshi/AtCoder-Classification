@@ -1,5 +1,9 @@
 # Change Log
 
+## [v1.2.1](https://github.com/KoyanagiHitoshi/AtCoder/releases/tag/v1.2.1) / 2020-04-13
+
+* [#6](https://github.com/KoyanagiHitoshi/AtCoder/pull/6) add code
+
 ## [v1.2.0](https://github.com/KoyanagiHitoshi/AtCoder/releases/tag/v1.2.0) / 2020-04-08
 
 * [#5](https://github.com/KoyanagiHitoshi/AtCoder/pull/5) add code
