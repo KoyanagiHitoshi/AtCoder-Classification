@@ -7,7 +7,7 @@ This repository is stored the code I solved at [AtCoder](https://atcoder.jp/).
 I use the following language at AtCoder.
 
 ```text
-Python3 (3.4.3)
+Python (3.8.2) / Python3 (3.4.3)
 ```
 
 ## Install
