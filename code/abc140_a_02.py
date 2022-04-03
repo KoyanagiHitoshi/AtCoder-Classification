@@ -1,1 +1,2 @@
-print(pow(int(input()),3))
+N=int(input())
+print(N**3)

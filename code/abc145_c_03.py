@@ -1,4 +1,7 @@
-import numpy as np
 N=int(input())
-xy=np.array([list(map(int,input().split())) for i in range(N)])
-print(sum(np.linalg.norm(i-j) for i in xy for j in xy)/N)
+xy=[list(map(int,input().split())) for i in range(N)]
+distance=0
+for xi,yi in xy:
+    for xj,yj in xy:
+        distance+=((xi-xj)**2+(yi-yj)**2)**.5
+print(distance/N)

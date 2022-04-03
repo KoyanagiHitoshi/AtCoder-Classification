@@ -1,1 +1,3 @@
-print(int(input())**2-int(input()))
+N=int(input())
+A=int(input())
+print(N*N-A)

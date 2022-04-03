@@ -1,2 +1,2 @@
-r = int(input())
-print(r**2)
+r=int(input())
+print(pow(r,2))

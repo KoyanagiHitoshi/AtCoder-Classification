@@ -1,1 +1,2 @@
-print("NO" if int(input().replace(" ",""))%4 else "YES")
+r,g,b=input().split()
+print("YES" if int(r+g+b)%4==0 else "NO")

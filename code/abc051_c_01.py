@@ -1,26 +1,23 @@
 sx,sy,tx,ty=map(int,input().split())
-ans=[]
-
+move=[]
 for i in range(ty-sy):
-    ans.append("U")
+    move.append("U")
 for i in range(tx-sx):
-    ans.append("R")
+    move.append("R")
 for i in range(abs(sy-ty)):
-    ans.append("D")
+    move.append("D")
 for i in range(abs(sx-tx)):
-    ans.append("L")
-
-ans.append("L")
+    move.append("L")
+move.append("L")
 for i in range(ty-sy+1):
-    ans.append("U")
+    move.append("U")
 for i in range(tx-sx+1):
-    ans.append("R")
-ans.append("D")
-ans.append("R")
+    move.append("R")
+move.append("D")
+move.append("R")
 for i in range(abs(sy-ty)+1):
-    ans.append("D")
+    move.append("D")
 for i in range(abs(sx-tx)+1):
-    ans.append("L")
-ans.append("U")
-
-print("".join(ans))
+    move.append("L")
+move.append("U")
+print("".join(move))

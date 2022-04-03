@@ -1,1 +1,2 @@
-print("4:3" if eval(input().replace(" ","*"))%144 else "16:9")
+W,H=map(int,input().split())
+print("16:9" if W*H%144==0 else "4:3")

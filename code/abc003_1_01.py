@@ -1,1 +1,2 @@
-print((int(input())+1)*5e3)
+N=int(input())
+print((N+1)*5e3)

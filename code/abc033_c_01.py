@@ -1,5 +1,6 @@
-S=map(str,input().split("+"))
-ans=0
+S=input().split("+")
+count=0
 for s in S:
-    if "0" not in s:ans+=1
-print(ans)
+    if "0" not in s:
+        count+=1
+print(count)

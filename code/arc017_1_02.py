@@ -1,2 +1,2 @@
 N=int(input())
-print("NO" if any([N%n==0 for n in range(2,N)]) else "YES")
+print("YES" if all(N%num for num in range(2,N)) else "NO")

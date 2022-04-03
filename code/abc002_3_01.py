@@ -1,6 +1,6 @@
-x1,y1,x2,y2,x3,y3=map(int,input().split())
-a=((x1-x2)**2+(y1-y2)**2)**.5
-b=((x2-x3)**2+(y2-y3)**2)**.5
-c=((x3-x1)**2+(y3-y1)**2)**.5
+xa,ya,xb,yb,xc,yx=map(int,input().split())
+a=((xa-xb)**2+(ya-yb)**2)**.5
+b=((xb-xc)**2+(yb-yx)**2)**.5
+c=((xc-xa)**2+(yx-ya)**2)**.5
 s=(a+b+c)/2
 print((s*(s-a)*(s-b)*(s-c))**.5)

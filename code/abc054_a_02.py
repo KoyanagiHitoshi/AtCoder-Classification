@@ -1,3 +1,2 @@
-a,b=map(int,input().split())
-a,b=(a+13)%15,(b+13)%15
+a,b=map(lambda x:(int(x)+13)%15,input().split())
 print("Alice" if a>b else "Bob" if a<b else "Draw")

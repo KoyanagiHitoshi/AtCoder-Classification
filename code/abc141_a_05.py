@@ -1,3 +1,3 @@
-weather=["Sunny","Cloudy","Rainy"]
+weather={"Sunny":"Cloudy","Cloudy":"Rainy","Rainy":"Sunny"}
 S=input()
-print(weather[(weather.index(S)+1)%3])
+print(weather[S])

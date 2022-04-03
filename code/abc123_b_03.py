@@ -1,12 +1,9 @@
-from itertools import permutations
 import math
-menu=5
-times=[int(input()) for i in range(menu)]
-orders=list(permutations(times,menu))
-minimum=sum(math.ceil(time/10)*10 for time in times)
+orders=[int(input()) for i in range(5)]
+maximum,total=0,0
 for order in orders:
-    total=order[0]
-    for i in range(1,menu):
-        total+=math.ceil(order[i]/10)*10
-    minimum=min(minimum,total)
-print(minimum)
+    time=math.ceil(order/10)*10
+    total+=time
+    remaine=time-order
+    maximum=max(maximum,remaine)
+print(total-maximum)

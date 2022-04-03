@@ -1,2 +1,2 @@
-i=lambda:int(input())
-print((i()-i())%i())
+X,A,B=[int(input()) for i in range(3)]
+print((X-A)%B)

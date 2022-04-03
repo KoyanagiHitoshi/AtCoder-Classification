@@ -1,12 +1,8 @@
-n=int(input())
-s=[]
-p=[]
-for i in range(n):
+N=int(input())
+SP=[]
+for i in range(N):
     S,P=input().split()
-    s.append([S,int(P),int(i)+1])
-    p.append(int(P))
-A=s[::]
-A.sort(key=lambda A:(A[1],A[0]),reverse=True)
-A.sort(key=lambda A:(A[0]))
-for i in range(n):
-    print(A[i][2])
+    SP.append([S,int(P),i+1])
+SP.sort(key=lambda sp:(sp[0],-sp[1]))
+for sp in SP:
+    print(sp[2])

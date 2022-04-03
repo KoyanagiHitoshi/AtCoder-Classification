@@ -1,2 +1,2 @@
-f=lambda:min(int(input()),int(input()))
-print(f()+f())
+A,B,C,D=[int(input()) for i in range(4)]
+print(min(A,B)+min(C,D))

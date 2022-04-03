@@ -1,2 +1,2 @@
-n=input().split()
-print("YES" if n.count("5")==2 and n.count("7")==1 else "NO")
+ABC = input().split()
+print("YES" if ABC.count("5") == 2 and ABC.count("7") == 1 else "NO")

@@ -1,2 +1,2 @@
-a,b,c=sorted(map(int,input().split()))
-print(c-a)
+A = sorted(map(int, input().split()))
+print(A[-1]-A[0])

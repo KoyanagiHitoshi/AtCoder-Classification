@@ -1,5 +1,6 @@
-n=int(input())
-ans=1
+N=int(input())
+div=1
 for i in range(7):
-    if 2**i<=n:ans=2**i
-print(ans)
+    if 2**i<=N:
+        div=2**i
+print(div)

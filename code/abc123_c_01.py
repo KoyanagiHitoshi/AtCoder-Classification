@@ -1,4 +1,4 @@
 import math
-n=int(input())
-l=[int(input()) for i in range(5)]
-print(math.ceil(n/min(l))+4)
+N=int(input())
+ABCDE=[int(input()) for i in range(5)]
+print(math.ceil(N/min(ABCDE))+4)

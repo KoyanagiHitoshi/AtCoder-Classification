@@ -1,10 +1,2 @@
-n,a,b=map(int,input().split())
-s=0
-for i in range(n+1):
-    c=0
-    d=str(i)
-    for j in range(len(d)):
-        c+=int(d[j])
-    if a<=c<=b:
-        s+=i
-print(s)
+N, A, B = map(int, input().split())
+print(sum(i for i in range(1, N+1) if A <= sum(map(int, str(i))) <= B))

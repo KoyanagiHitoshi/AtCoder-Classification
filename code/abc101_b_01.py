@@ -1,2 +1,2 @@
-n=input()
-print("No" if int(n)%sum(map(int,n)) else "Yes")
+N=input()
+print("Yes" if int(N)%sum(map(int,N))==0 else "No")

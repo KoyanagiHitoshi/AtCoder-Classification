@@ -1,2 +1,2 @@
-X = input()
-print("ABCDE".index(X)+1)
+X=input()
+print(ord(X)-64)

@@ -1,1 +1,2 @@
-print(2**(len(bin(int(input())))-3))
+N=int(input())
+print(2**(len(bin(N))-3))

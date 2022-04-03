@@ -1,5 +1,5 @@
-n=int(input())
-t,a=map(int,input().split())
-hi=[int(_) for _ in input().split()]
-z=[abs(a-(t-x*0.006)) for x in hi]
-print(z.index(min(z))+1)
+N=input()
+T,A=map(int,input().split())
+H=list(map(int,input().split()))
+diff=[abs(A-(T-h*0.006)) for h in H]
+print(diff.index(min(diff))+1)

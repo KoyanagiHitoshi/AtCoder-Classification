@@ -1,9 +1,10 @@
 import re
-s=input().replace("?",".")
-t=input()
-for i in range(len(s)-len(t),-1,-1):
-    if re.match(s[i:i+len(t)],t):
-        s=s.replace(".","a")
-        print(s[:i]+t+s[i+len(t):])
-        exit()
-print("UNRESTORABLE")
+S=input().replace("?",".")
+T=input()
+for i in range(len(S)-len(T),-1,-1):
+    if re.match(S[i:i+len(T)],T):
+        S=S.replace(".","a")
+        print(S[:i]+T+S[i+len(T):])
+        break
+else:
+    print("UNRESTORABLE")

@@ -1,1 +1,2 @@
-print("x"*len(input()))
+S = input()
+print("x"*len(S))

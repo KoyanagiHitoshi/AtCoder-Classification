@@ -1,8 +1,6 @@
-from fractions import gcd
+import math
 N,M=map(int,input().split())
 S=list(input())
 T=list(input())
-L=gcd(N,M)
-n=N//L
-m=M//L
-print(N*M//L if all([S[i*n]==T[i*m] for i in range(L)]) else "-1")
+L=math.gcd(N,M)
+print(N*M//L if all([S[i*N//L]==T[i*M//L] for i in range(L)]) else "-1")

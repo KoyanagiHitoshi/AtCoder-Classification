@@ -1,6 +1,5 @@
 N=int(input())
-A=list(map(int,input().split()))+[0]
-A.insert(0,0)
+A=[0]+list(map(int,input().split()))+[0]
 cost=0
 for i in range(N+1):
     cost+=abs(A[i+1]-A[i])

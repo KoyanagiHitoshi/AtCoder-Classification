@@ -1,2 +1,2 @@
-q=int(input())
-print("ABC" if q==1 else "chokudai")
+Q=input()
+print("ABC" if Q=="1" else "chokudai")

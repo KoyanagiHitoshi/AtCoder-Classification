@@ -1,3 +1,3 @@
-import fractions
+import math
 A,B=map(int,input().split())
-print(A*B//fractions.gcd(A,B))
+print(A*B//math.gcd(A,B))

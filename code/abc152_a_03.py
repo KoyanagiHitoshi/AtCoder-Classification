@@ -1,2 +1,2 @@
-f=eval(input().replace(" ","=="))
-print("Yes" if f else "No")
+NM=input().split()
+print("Yes" if len(set(NM))==1 else "No")

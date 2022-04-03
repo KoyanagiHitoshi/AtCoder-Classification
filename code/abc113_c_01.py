@@ -1,10 +1,10 @@
 import collections
 import bisect
-n,m=map(int,input().split())
-p=[[int(j) for j in input().split()] for i in range(m)]
-a=collections.defaultdict(list)
-for x,y in sorted(p):
-    a[x]+=[y]
-for x,y in p:
-    z=bisect.bisect(a[x],y)
-    print("%06d%06d"%(x,z))
+N,M=map(int,input().split())
+PY=[[int(j) for j in input().split()] for i in range(M)]
+dict_PY=collections.defaultdict(list)
+for p,y in sorted(PY):
+    dict_PY[p]+=[y]
+for p,y in PY:
+    number=bisect.bisect(dict_PY[p],y)
+    print("%06d%06d"%(p,number))

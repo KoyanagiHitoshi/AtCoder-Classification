@@ -1,1 +1,0 @@
-print("YES" if sorted(input().split())==sorted("1479") else "NO")

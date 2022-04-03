@@ -1,3 +1,3 @@
-int(input())
-L=sorted(map(int,input().split()))[::-1]
-print("Yes" if L[0]<sum(L[1:]) else "No")
+N = int(input())
+L = list(map(int, input().split()))
+print("Yes" if sum(L) > 2*max(L) else "No")

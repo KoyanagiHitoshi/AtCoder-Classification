@@ -1,8 +1,9 @@
 X=int(input())
-for x in range(X,2*X):
-    for i in range(2,int(x**.5)+1):
-        if x%i==0:
-            break
+num=2
+while num<X:
+    if X%num==0:
+        X+=1
+        num=2
     else:
-        print(x)
-        break
+        num+=1
+print(X)

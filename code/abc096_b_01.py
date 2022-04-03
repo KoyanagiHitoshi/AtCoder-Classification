@@ -1,4 +1,7 @@
-l=[int(_) for _ in input().split()]
-k=int(input())
-for i in range(k):l[l.index(max(l))]=max(l)*2
-print(sum(l))
+ABC=list(map(int,input().split()))
+K=int(input())
+for k in range(K):
+    maximum=max(ABC)
+    ABC.remove(maximum)
+    ABC.append(maximum*2)
+print(sum(ABC))

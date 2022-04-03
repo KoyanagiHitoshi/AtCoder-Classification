@@ -1,2 +1,2 @@
-l=list(map(int,input().split()))
-print(sum(l)+max(l)*9)
+A, B, C = sorted(map(int, input().split()))
+print(10*C+B+A)

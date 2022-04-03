@@ -1,14 +1,15 @@
 import math
-N=math.factorial(int(input()))
-i=2
-ans=1
-M=10**9+7
-while i*i<=N:
-    cnt=1
-    while N%i==0:
-        cnt+=1
-        N//=i
-    ans*=cnt
-    i+=1
-if N!=1:ans*=2
-print(int(ans%M))
+N=int(input())
+fractorial=math.factorial(N)
+mod=10**9+7
+ans,num=1,2
+while num*num<=fractorial:
+    count=1
+    while fractorial%num==0:
+        count+=1
+        fractorial//=num
+    ans*=count
+    num+=1
+if fractorial!=1:
+    ans*=2
+print(ans%mod)

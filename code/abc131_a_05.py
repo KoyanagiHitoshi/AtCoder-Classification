@@ -1,2 +1,2 @@
 S=input()
-print("Good" if all(S[i]!=S[i+1] for i in range(3)) else "Bad")
+print("Good" if S[0]!=S[1]!=S[2]!=S[3] else "Bad")

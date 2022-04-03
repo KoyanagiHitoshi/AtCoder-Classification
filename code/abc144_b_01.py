@@ -1,8 +1,7 @@
 N=int(input())
-flag=False
-for i in range(1,10):
-    m=N/i
-    if m==int(m) and 1<=m<=9:
-        flag=True
+for num in range(1,10):
+    if (N/num).is_integer() and 1<=(N/num)<=9:
+        print("Yes")
         break
-print("Yes" if flag else "No")
+else:
+    print("No")

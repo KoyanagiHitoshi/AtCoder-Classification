@@ -1,2 +1,1 @@
-import re
-print("NO" if re.sub(r"ch|o|k|u","",input()) else "YES")
+print("YES" if input().replace("ch","").replace("o","").replace("k","").replace("u","")=="" else "NO")

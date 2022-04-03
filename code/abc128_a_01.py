@@ -1,2 +1,2 @@
-a,p=map(int,input().split())
-print((a*3+p)//2)
+A,P=map(int,input().split())
+print((3*A+P)//2)

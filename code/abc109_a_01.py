@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print("No" if(a*b%2==0) else "Yes")
+A,B=input().split()
+print("No" if "2" in A or "2" in B else "Yes")

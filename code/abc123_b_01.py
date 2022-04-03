@@ -1,11 +1,12 @@
-l=[int(input()) for i in range(5)]
-ans=0
-m=10
-for i in l:
-    mod=i%10
-    if mod!=0:
-        m=min(m,mod)
-        ans+=i+(10-mod)
-    else:
-        ans+=i
-print(ans-(10-m))
+from itertools import permutations
+import math
+menu=5
+times=[int(input()) for i in range(menu)]
+orders=list(permutations(times,menu))
+minimum=sum(math.ceil(time/10)*10 for time in times)
+for order in orders:
+    total=order[0]
+    for i in range(1,menu):
+        total+=math.ceil(order[i]/10)*10
+    minimum=min(minimum,total)
+print(minimum)

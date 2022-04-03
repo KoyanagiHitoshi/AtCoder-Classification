@@ -1,2 +1,2 @@
-r=int(input())
-print("ABC" if r<1200 else "ARC" if r<2800 else "AGC")
+R = int(input())
+print("ABC" if R < 1200 else "ARC" if R < 2800 else "AGC")

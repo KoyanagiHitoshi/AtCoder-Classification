@@ -1,6 +1,7 @@
 N,T=map(int,input().split())
-m=1001
+min_cost=1001
 for i in range(N):
     c,t=map(int,input().split())
-    if t<=T:m=min(m,c)
-print("TLE" if m==1001 else m)
+    if t<=T:
+        min_cost=min(min_cost,c)
+print("TLE" if min_cost==1001 else min_cost)

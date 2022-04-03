@@ -1,2 +1,11 @@
 a,b,c,x=[int(input()) for i in range(4)]
-print([500*x+100*y+50*z for z in range(c+1) for y in range(b+1) for x in range(a+1)].count(x))
+x//=50
+p=min(a,x//10)
+ans=0
+for i in range(p+1):
+    y=x-10*i
+    q=min(b,y//2)
+    for j in range(q+1):
+        z=y-2*j
+        if c>=z:ans+=1
+print(ans)

@@ -1,1 +1,2 @@
-print(["A","B","C","D","E"].index(input())+1)
+X=input()
+print(["A","B","C","D","E"].index(X)+1)

@@ -1,3 +1,3 @@
-S=input()
-s=list(set(S))
-print("Yes" if len(s)==2 and S.count(s[0])==S.count(s[1])==2 else "No")
+S = input()
+c = list(set(S))
+print("Yes" if len(c) == 2 and S.count(c[0]) == S.count(c[1]) == 2 else "No")

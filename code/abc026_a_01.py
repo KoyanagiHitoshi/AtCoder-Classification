@@ -1,1 +1,2 @@
-print(int(input())**2//4)
+A=int(input())
+print(A**2//4)

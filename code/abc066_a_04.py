@@ -1,2 +1,2 @@
-a,b,c=sorted(map(int,input().split()))
-print(a+b)
+a,b,c=map(int,input().split())
+print(min(a+b,b+c,c+a))

@@ -1,2 +1,2 @@
-s=eval(input().replace(" ","+"))
-print(s//2 if s%2==0 else "IMPOSSIBLE")
+A,B=map(int,input().split())
+print((A+B)//2 if (A+B)%2==0 else "IMPOSSIBLE")

@@ -1,4 +1,4 @@
-input()
+N=input()
 C=input()
 a=C.count("1")
 b=C.count("2")

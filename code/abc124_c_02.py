@@ -1,2 +1,2 @@
-s=input()
-print(min(s[::2].count("0")+s[1::2].count("1"),s[::2].count("1")+s[1::2].count("0")))
+S=input()
+print(min(S[::2].count("0")+S[1::2].count("1"),S[::2].count("1")+S[1::2].count("0")))

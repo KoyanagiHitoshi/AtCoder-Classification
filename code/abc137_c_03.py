@@ -1,5 +1,11 @@
-import collections
 N=int(input())
-s=[str(sorted(input())) for i in range(N)]
-c=collections.Counter(s)
-print(sum((v*(v-1))//2 for v in c.values()))
+dictionary={}
+count=0
+for i in range(N):
+    s=tuple(sorted(input()))
+    if s in dictionary:
+        dictionary[s]+=1
+        count+=dictionary[s]
+    else:
+        dictionary[s]=0
+print(count)

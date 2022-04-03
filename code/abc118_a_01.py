@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print(a+b if b%a==0 else b-a)
+A,B=map(int,input().split())
+print(A+B if B%A==0 else B-A)

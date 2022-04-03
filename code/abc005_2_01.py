@@ -1,1 +1,3 @@
-print(min([int(input()) for _ in range(int(input()))]))
+N=int(input())
+T=[int(input()) for i in range(N)]
+print(min(T))

@@ -1,2 +1,2 @@
-a,b,c=sorted(map(int,input().split()))
-print(c-a)
+A=list(map(int,input().split()))
+print(max(A)-min(A))

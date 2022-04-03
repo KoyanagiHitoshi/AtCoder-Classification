@@ -1,1 +1,2 @@
-print(eval('+'.join(sorted(input()))+'*10'))
+A,B,C=sorted(map(int,input().split()))
+print(10*C+B+A)

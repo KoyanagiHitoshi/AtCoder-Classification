@@ -1,4 +1,5 @@
-import functools,fractions
-n=int(input())
-a=list(map(int,input().split()))
-print(functools.reduce(fractions.gcd,a))
+import functools
+import math
+N=int(input())
+A=list(map(int,input().split()))
+print(functools.reduce(math.gcd,A))

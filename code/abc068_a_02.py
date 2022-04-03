@@ -1,2 +1,2 @@
-n=input()
-print("ABC"+n)
+N=input()
+print("ABC"+N)

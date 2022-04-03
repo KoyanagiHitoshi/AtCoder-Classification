@@ -1,1 +1,1 @@
-print("No" if "2" in input() else "Yes")
+print("No" if eval(input().replace(" ","*"))%2==0 else "Yes")

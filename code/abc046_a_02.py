@@ -1,2 +1,2 @@
-c=list(input().split())
-print(len(set(c)))
+abc=input().split()
+print(len(set(abc)))

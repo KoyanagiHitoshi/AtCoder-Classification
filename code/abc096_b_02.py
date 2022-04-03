@@ -1,3 +1,3 @@
-l=[int(_) for _ in input().split()]
-k=int(input())
-print(max(l)*2**k+sum(l)-max(l))
+A,B,C=sorted(map(int,input().split()))
+K=int(input())
+print(A+B+C*2**K)

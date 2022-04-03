@@ -1,3 +1,6 @@
-import math
 N,K=map(int,input().split())
-print(int(math.log(N,K))+1)
+digits=0
+while(N>0):
+    N=N//K
+    digits=digits+1
+print(digits)

@@ -1,2 +1,7 @@
-n=int(input())
-print("Hello World" if n%2!=0 else int(input())+int(input()))
+N=int(input())
+if N==1:
+    print("Hello World")
+else:
+    A=int(input())
+    B=int(input())
+    print(A+B)

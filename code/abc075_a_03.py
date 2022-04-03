@@ -1,2 +1,2 @@
-a,b,c=map(int,input().split())
-print(a if b==c else b if a==c else c)
+A,B,C=map(int,input().split())
+print(A if B==C else B if A==C else C)

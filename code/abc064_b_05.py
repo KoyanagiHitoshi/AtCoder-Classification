@@ -1,3 +1,3 @@
-input()
-a = list(map(int, input().split()))
-print(max(a)-min(a))
+N=int(input())
+a=sorted(map(int,input().split()))
+print(a[-1]-a[0])

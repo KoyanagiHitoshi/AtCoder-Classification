@@ -1,12 +1,13 @@
-w,h,n=map(int,input().split())
-l=[[int(j) for j in input().split()] for i in range(n)]
-b=c=0
-d=w
-e=h
-for i in range(n):
-    a=l[i][2]
-    if a==1:b=max(b,l[i][0])
-    if a==2:d=min(d,l[i][0])
-    if a==3:c=max(c,l[i][1])
-    if a==4:e=min(e,l[i][1])
-print([(d-b)*(e-c),0][(d<b)|(e<c)])
+W,H,N=map(int,input().split())
+width=height=0
+for i in range(N):
+    x,y,a=map(int,input().split())
+    if a==1:
+        width=max(width,x)
+    if a==2:
+        W=min(W,x)
+    if a==3:
+        height=max(height,y)
+    if a==4:
+        H=min(H,y)
+print(max(0,(W-width))*max(0,(H-height)))

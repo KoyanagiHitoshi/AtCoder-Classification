@@ -1,2 +1,2 @@
-a,b=input().split()
-print(b,a)
+AB=input().split()
+print(*AB[::-1])

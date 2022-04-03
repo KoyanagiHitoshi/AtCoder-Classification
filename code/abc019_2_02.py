@@ -1,2 +1,6 @@
 import itertools
-print("".join([i+str(len(list(j))) for i,j in itertools.groupby(list(input()))]))
+s=input()
+string=""
+for key,group in itertools.groupby(list(s)):
+    string+=key+str(len(list(group)))
+print(string)

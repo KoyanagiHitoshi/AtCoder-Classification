@@ -1,2 +1,2 @@
-a,b,c=map(int,input().split())
-print(max(a,b,c)-min(a,b,c))
+A1, A2, A3 = sorted(map(int, input().split()))
+print(A3-A1)

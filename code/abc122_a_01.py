@@ -1,2 +1,9 @@
-b=input()
-print("A" if b=="T" else "T" if b=="A" else "G" if b=="C" else "C")
+b = input()
+if b == "A":
+    print("T")
+elif b == "T":
+    print("A")
+elif b == "C":
+    print("G")
+elif b == "G":
+    print("C")

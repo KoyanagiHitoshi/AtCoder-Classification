@@ -1,12 +1,11 @@
-import heapq
+from collections import Counter
 N=int(input())
-s=set()
-q=[0,0]
-for a in map(int,input().split()):
-    if a>q[0]:
-        try:
-            s.remove(a)
-            heapq.heapreplace(q,a)
-        except:
-            s.add(a)
-print(q[0]*q[1])
+A=Counter(map(int,input().split()))
+length=[0,0]
+for a in A:
+    if A[a]>=2:
+        length.append(a)
+    if A[a]>=4:
+        length.append(a)
+length.sort()
+print(length[-1]*length[-2])

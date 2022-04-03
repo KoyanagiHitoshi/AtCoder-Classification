@@ -1,2 +1,2 @@
-n,k=map(int,input().split())
-print(k*(k-1)**(n-1))
+N,K=map(int,input().split())
+print(K*(K-1)**(N-1))

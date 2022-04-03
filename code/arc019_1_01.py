@@ -1,1 +1,4 @@
-print(input().replace("O","0").replace("D","0").replace("I","1").replace("Z","2").replace("S","5").replace("B","8"))
+S=input()
+for b,a in zip("ODIZSB","001258"):
+    S=S.replace(b,a)
+print(S)

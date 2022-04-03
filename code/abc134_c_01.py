@@ -1,9 +1,6 @@
 N=int(input())
 A=[int(input()) for i in range(N)]
-a=sorted(A)
-x,y=a[-1],a[-2]
-for i in range(N):
-    if A[i]!=x:
-        print(x)
-    else:
-        print(y)
+sorted_A=sorted(A)
+x,y=sorted_A[-1],sorted_A[-2]
+for a in A:
+    print(x if a!=x else y)

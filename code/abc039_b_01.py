@@ -1,1 +1,2 @@
-print(int(int(input())**.25))
+X = int(input())
+print(int(X**0.25))

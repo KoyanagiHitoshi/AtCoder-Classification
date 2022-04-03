@@ -1,2 +1,3 @@
+import math
 N=int(input())
-print(N//2+N%2)
+print(math.ceil(N/2))

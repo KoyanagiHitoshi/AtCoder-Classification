@@ -1,1 +1,2 @@
-print(*input().split(","))
+s=input().split(",")
+print(*s)

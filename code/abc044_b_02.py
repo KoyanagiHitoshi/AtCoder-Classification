@@ -1,2 +1,2 @@
-s=input()
-print("Yes" if all([s.count(i)%2==0 for i in set(s)]) else "No")
+w=input()
+print("Yes" if all(w.count(char)%2==0 for char in set(w)) else "No")

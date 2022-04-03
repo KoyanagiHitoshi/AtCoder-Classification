@@ -1,4 +1,2 @@
-a,b=map(int,input().split())
-if a==1:a+=13
-if b==1:b+=13
-print("Alice" if a>b else "Draw" if a==b else "Bob")
+A,B=map(int,input().split())
+print("Draw" if A==B else "Bob" if (A+13)%15<(B+13)%15 else "Alice")

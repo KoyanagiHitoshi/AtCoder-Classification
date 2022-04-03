@@ -1,8 +1,7 @@
-n=int(input())
-a=list(map(int,input().split()))
-c=0
-for i in a:
-    while i%2==0:
-        i=i/2
-        c+=1
-print(c)
+N=int(input())
+A=list(map(int,input().split()))
+count=0
+for a in A:
+    while a%2==0:
+        a,count=a/2,count+1
+print(count)

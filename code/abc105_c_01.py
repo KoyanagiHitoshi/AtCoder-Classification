@@ -1,6 +1,6 @@
-n=int(input())
-x=""
-while n!=0:
-    x=str(n%2)+x
-    n=-(n//2)
-print(0 if x=="" else x)
+N=int(input())
+S=""
+while N!=0:
+    S=str(N%2)+S
+    N=-(N//2)
+print(0 if S=="" else S)

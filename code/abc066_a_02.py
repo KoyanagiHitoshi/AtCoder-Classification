@@ -1,1 +1,2 @@
-print(sum(sorted(map(int,input().split()))[:2]))
+abc = list(map(int, input().split()))
+print(sum(sorted(abc)[:2]))

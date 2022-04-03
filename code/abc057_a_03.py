@@ -1,2 +1,1 @@
-A, B = map(int, input().split())
-print((A+B) % 24)
+print(sum(map(int,input().split()))%24)

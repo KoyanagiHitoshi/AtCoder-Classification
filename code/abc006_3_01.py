@@ -5,4 +5,4 @@ if 2*N<=M<=4*N:
     x=N-y-z
     print(x,y,z)
 else:
-    print("-1 -1 -1")
+    print(-1,-1,-1)

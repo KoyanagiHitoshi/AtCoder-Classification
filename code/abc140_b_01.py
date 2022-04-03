@@ -1,5 +1,8 @@
 N=int(input())
-A=list(map(int,input().split()))
-B=list(map(int,input().split()))
-C=list(map(int,input().split()))
-print(sum(B)+sum(C[A[i]-1] for i in range(N-1) if A[i]==(A[i+1]-1)))
+A,B,C=[list(map(int,input().split())) for i in range(3)]
+satisfaction=0
+for i in range(N):
+    satisfaction+=B[A[i]-1]
+    if i!=0 and A[i]==A[i-1]+1:
+        satisfaction+=C[A[i-1]-1]
+print(satisfaction)

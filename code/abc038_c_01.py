@@ -1,11 +1,11 @@
 N=int(input())
-A=list(map(int,input().split()))
+a=list(map(int,input().split()))
 diff=0
-ans=N
+count=N
 for i in range(N-1):
-    if A[i]<A[i+1]:
+    if a[i]<a[i+1]:
         diff+=1
-        ans+=diff
+        count+=diff
     else:
         diff=0
-print(ans)
+print(count)

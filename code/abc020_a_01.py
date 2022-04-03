@@ -1,1 +1,5 @@
-print("ABC" if input()=="1" else "chokudai")
+Q = int(input())
+if Q == 1:
+    print("ABC")
+else:
+    print("chokudai")

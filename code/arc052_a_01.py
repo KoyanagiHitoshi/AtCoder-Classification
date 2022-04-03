@@ -1,2 +1,2 @@
-import re
-print(re.sub("\D","",input()))
+S=input()
+print("".join(s for s in S if s.isdigit()))

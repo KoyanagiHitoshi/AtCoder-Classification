@@ -1,3 +1,3 @@
 input()
-l=sorted([int(_) for _ in input().split()])[::-1]
-print(sum(l[::2])-sum(l[1::2]))
+a = sorted(map(int, input().split()))[::-1]
+print(sum(a[::2])-sum(a[1::2]))

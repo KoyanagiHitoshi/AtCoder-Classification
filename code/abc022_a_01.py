@@ -1,7 +1,6 @@
-n,s,t=map(int,input().split())
-w=c=0
-for i in range(n):
-    w+=int(input())
-    if(s<=w<=t):
-        c+=1
-print(c)
+N,S,T=map(int,input().split())
+W=day=0
+for i in range(N):
+    W+=int(input())
+    day+=S<=W<=T
+print(day)

@@ -1,3 +1,3 @@
-n=int(input())
-p=sorted([int(input()) for i in range(n)])
-print(p[-1]//2+sum(p[:-1]))
+N=int(input())
+p=[int(input()) for i in range(N)]
+print(sum(p)-max(p)//2)

@@ -1,4 +1,4 @@
-ABC = [int(input()) for i in range(3)]
-sort = sorted(ABC)[::-1]
-for i in ABC:
-    print(sort.index(i)+1)
+ABC=[int(input()) for i in range(3)]
+sort_ABC=sorted(ABC)[::-1]
+for abc in ABC:
+    print(sort_ABC.index(abc)+1)

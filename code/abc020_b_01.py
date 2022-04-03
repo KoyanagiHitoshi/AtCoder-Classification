@@ -1,1 +1,2 @@
-print(2*int(input().replace(" ","")))
+A,B=input().split()
+print(2*int(A+B))

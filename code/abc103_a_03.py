@@ -1,2 +1,2 @@
-*a,=map(int,input().split())
-print(max(a)-min(a))
+A = list(map(int, input().split()))
+print(max(A)-min(A))

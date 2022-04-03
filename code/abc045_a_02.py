@@ -1,1 +1,2 @@
-print((int(input())+int(input()))*int(input())//2)
+x=lambda:int(input())
+print((x()+x())*x()//2)

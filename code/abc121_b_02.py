@@ -3,7 +3,6 @@ B=list(map(int,input().split()))
 count=0
 for i in range(N):
     A=list(map(int,input().split()))
-    p=C
-    for j in range(M):p+=A[j]*B[j]
-    if p>0:count+=1
+    if sum([a*b for a,b in zip(A,B)])+C>0:
+        count+=1
 print(count)

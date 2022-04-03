@@ -1,1 +1,2 @@
-print(input()+"s")
+W = input()
+print(W+"s")

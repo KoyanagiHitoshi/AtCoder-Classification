@@ -1,3 +1,2 @@
-s="ABCDE"
-x=input()
-print(s.index(x)+1)
+X=input()
+print("0ABCDE".index(X))

@@ -1,5 +1,3 @@
 import itertools
-s=""
-for i,j in itertools.groupby(list(input())):
-    s+=i+str(len(list(j)))
-print(s)
+s=list(input())
+print("".join(key+str(len(list(group))) for key,group in itertools.groupby(s)))

@@ -1,1 +1,2 @@
-print("Yay!" if max(map(int,input().split()))<9 else ":(")
+A,B=map(int,input().split())
+print("Yay!" if max(A,B)<9 else ":(")

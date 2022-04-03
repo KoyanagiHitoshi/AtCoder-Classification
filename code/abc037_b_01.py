@@ -1,6 +1,8 @@
-n,q=map(int,input().split())
-a=[0]*n
-for i in range(q):
-    l,r,t=map(int,input().split())
-    for i in range(l,r+1):a[i-1]=t
-print(*a,sep="\n")
+N,Q=map(int,input().split())
+a=[0]*N
+for i in range(Q):
+    L,R,T=map(int,input().split())
+    for i in range(L,R+1):
+        a[i-1]=T
+for i in range(N):
+    print(a[i])

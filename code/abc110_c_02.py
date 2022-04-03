@@ -1,5 +1,5 @@
-s=list(input())
-t=list(input())
-S=sorted(map(s.count,set(s)))
-T=sorted(map(t.count,set(t)))
-print("Yes" if S==T else "No")
+from collections import Counter
+S=Counter(list(input()))
+T=Counter(list(input()))
+S,T=list(S.values()),list(T.values())
+print("Yes" if sorted(S)==sorted(T) else "No")

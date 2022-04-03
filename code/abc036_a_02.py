@@ -1,2 +1,3 @@
-a,b=map(int,input().split())
-print(-(-b//a))
+import math
+A,B=map(int,input().split())
+print(math.ceil(B/A))

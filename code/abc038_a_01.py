@@ -1,1 +1,2 @@
-print("YES" if input()[-1]=="T" else "NO")
+S = input()
+print("YES" if S[-1] == "T" else "NO")

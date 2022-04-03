@@ -1,2 +1,2 @@
-a,b,c,d=input()
-print("Yes" if a==b==c or b==c==d else "No")
+N = input()
+print("Yes" if N[0] == N[1] == N[2] or N[1] == N[2] == N[3] else "No")

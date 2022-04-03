@@ -1,10 +1,10 @@
-N=int(input())
-n=10**6+1
-x=[0]*(n+1)
-for i in range(N):
-    a,b=map(int,input().split())
-    x[a]+=1
-    x[b+1]-=1
+n=int(input())
+color=10**6+1
+check=[0]*(color+1)
 for i in range(n):
-    x[i+1]+=x[i]
-print(max(x))
+    a,b=map(int,input().split())
+    check[a]+=1
+    check[b+1]-=1
+for i in range(color):
+    check[i+1]+=check[i]
+print(max(check))

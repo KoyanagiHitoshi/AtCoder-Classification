@@ -1,2 +1,2 @@
-r = int(input())
-print(3*r**2)
+r=int(input())
+print(3*pow(r,2))

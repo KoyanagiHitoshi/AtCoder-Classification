@@ -1,1 +1,2 @@
-print(int(input())%12+1)
+N = int(input())
+print((N % 12)+1)

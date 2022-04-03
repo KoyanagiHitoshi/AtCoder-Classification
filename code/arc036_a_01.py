@@ -1,7 +1,8 @@
 N,K=map(int,input().split())
-T=[int(input()) for i in range(N)]
-for i in range(3,N):
-    if sum(T[i-3:i])<K:
-        print(i)
-        exit()
-print(-1)
+t=[int(input()) for i in range(N)]
+for day in range(3,N):
+    if sum(t[day-3:day])<K:
+        print(day)
+        break
+else:
+    print(-1)

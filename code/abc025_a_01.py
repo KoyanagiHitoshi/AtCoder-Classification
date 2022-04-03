@@ -1,3 +1,3 @@
-s=input()
-n=int(input())-1
-print(s[n//5]+s[n%5])
+S=input()
+N=int(input())-1
+print(S[N//5]+S[N%5])

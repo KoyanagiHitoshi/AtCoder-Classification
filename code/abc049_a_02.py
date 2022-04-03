@@ -1,5 +1,2 @@
-c=input()
-if c in "aiueo":
-    print("vowel")
-else:
-    print("consonant")
+c = input()
+print("vowel" if c in "aiueo" else "consonant")

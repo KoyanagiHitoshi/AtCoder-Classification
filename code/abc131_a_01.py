@@ -1,2 +1,2 @@
-s=input()
-print("Good" if s[0]!=s[1] and s[1]!=s[2] and s[2]!=s[3] else "Bad")
+S = input()
+print("Good" if S[0] != S[1] != S[2] != S[3] else "Bad")

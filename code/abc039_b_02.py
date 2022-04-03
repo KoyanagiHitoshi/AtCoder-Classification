@@ -1,2 +1,2 @@
-x=int(input())
-print(int(x**.25))
+X = int(input())
+print(int(X**(1/4)))

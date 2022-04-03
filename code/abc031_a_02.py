@@ -1,2 +1,2 @@
-a,d=map(int,input().split())
-print(a*d+max(a,d))
+A,D=map(int,input().split())
+print(max(A,D)*(min(A,D)+1))

@@ -1,3 +1,3 @@
-n,k=map(int,input().split())
-l=sorted([int(_) for _ in input().split()])
-print(sum(l[-k:]))
+N,K=map(int,input().split())
+l=list(map(int,input().split()))
+print(sum(sorted(l)[::-1][:K]))

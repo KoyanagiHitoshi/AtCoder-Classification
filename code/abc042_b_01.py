@@ -1,3 +1,3 @@
-n,l=map(int,input().split())
-s=sorted([input() for i in range(n)])
-print(*s,sep="")
+N,L=map(int,input().split())
+S=[input() for i in range(N)]
+print(*sorted(S),sep="")

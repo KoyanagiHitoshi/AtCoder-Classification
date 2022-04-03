@@ -1,2 +1,2 @@
 X=int(input())
-print(int(X**0.25))
+print(int(X**(1/4)))

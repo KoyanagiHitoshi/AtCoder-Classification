@@ -1,1 +1,3 @@
-print("Yes" if int(input())%500<=int(input()) else "No")
+N=int(input())
+A=int(input())
+print("Yes" if N%500<=A else "No")

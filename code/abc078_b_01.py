@@ -1,2 +1,2 @@
-x,y,z=map(int,input().split())
-print((x-z)//(y+z))
+X,Y,Z=map(int,input().split())
+print((X-Z)//(Y+Z))

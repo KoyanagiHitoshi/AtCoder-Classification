@@ -1,1 +1,3 @@
-print(max(input(),input(),key=len))
+A=input()
+B=input()
+print(max(A,B,key=len))

@@ -1,12 +1,8 @@
-n=int(input())
-a=[]
-l=[]
-for i in range(n):
+N=int(input())
+S=[]
+P=[]
+for i in range(N):
     s,p=input().split()
-    a.append(s)
-    l.append(int(p))
-for i in range(n):
-    if l[i]>sum(l)/2:
-        print(a[i])
-        exit()
-print("atcoder")
+    S.append(s)
+    P.append(int(p))
+print(S[P.index(max(P))] if max(P)>sum(P)/2 else "atcoder")

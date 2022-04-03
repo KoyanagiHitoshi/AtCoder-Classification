@@ -1,2 +1,3 @@
-input()
-print("Three" if len(set(input().split()))==3 else "Four")
+N=input()
+S=input()
+print("Four" if "Y" in S else "Three")

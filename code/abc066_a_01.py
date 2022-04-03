@@ -1,3 +1,2 @@
-l=[int(_) for _ in input().split()]
-l.sort()
-print(l[0]+l[1])
+a, b, c = sorted(map(int, input().split()))
+print(a+b)

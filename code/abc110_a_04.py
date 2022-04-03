@@ -1,1 +1,2 @@
-print(eval("+".join(sorted(input()))+"*10"))
+ABC=sorted(input())
+print(eval("+".join(ABC)+"*10"))

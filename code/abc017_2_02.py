@@ -1,1 +1,3 @@
-print("YES" if input().replace("ch","").replace("o","").replace("k","").replace("u","")=="" else "NO")
+import re
+X=input()
+print("NO" if re.sub(r"ch|o|k|u","",X) else "YES")

@@ -1,2 +1,1 @@
-a,_,b=input()
-print("DH"[a==b])
+print("HD"[len(set(input()))%2])

@@ -1,5 +1,6 @@
-input()
-a=input().split()
-input()
-a+=input().split()
-print("YES" if len(a)==len(set(a)) else "NO")
+N=int(input())
+ab=input().split()
+K=int(input())
+P=input().split()
+path=ab+P
+print("YES" if len(path)==len(set(path)) else "NO")

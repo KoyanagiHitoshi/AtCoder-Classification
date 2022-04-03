@@ -1,2 +1,2 @@
-a, b, c = input().split(",")
-print(a, b, c)
+a,b,c=input().split(",")
+print(a,b,c)

@@ -1,1 +1,2 @@
-print(sum(map(int,input())))
+X = input()
+print(sum(map(int, X)))

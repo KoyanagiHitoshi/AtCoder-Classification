@@ -1,1 +1,2 @@
-print(ord(input())-64)
+X = input()
+print(["A", "B", "C", "D", "E"].index(X)+1)

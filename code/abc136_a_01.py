@@ -1,3 +1,3 @@
-A,B,C=map(int,input().split())
-d=C-(A-B)
-print(d if d>0 else 0)
+A, B, C = map(int, input().split())
+water = C-(A-B)
+print(water if water > 0 else 0)

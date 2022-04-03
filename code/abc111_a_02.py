@@ -1,1 +1,2 @@
-print("".join(["9" if x=="1" else "1" for x in input()]))
+n=input()
+print(n.replace("1","x").replace("9","1").replace("x","9"))

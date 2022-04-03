@@ -1,11 +1,3 @@
-a,b,c,x=[int(input()) for i in range(4)]
-x//=50
-p=min(a,x//10)
-ans=0
-for i in range(p+1):
-    y=x-10*i
-    q=min(b,y//2)
-    for j in range(q+1):
-        z=y-2*j
-        if c>=z:ans+=1
-print(ans)
+A, B, C, X = [int(input()) for i in range(4)]
+print(sum(500*a+100*b+50*c == X for a in range(A+1)
+      for b in range(B+1) for c in range(C+1)))

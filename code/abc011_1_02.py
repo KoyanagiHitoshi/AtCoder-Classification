@@ -1,2 +1,2 @@
-n=int(input())
-print(n%12+1)
+N=int(input())
+print(N%12+1)

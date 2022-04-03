@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print(a*b-(a+b-1))
+A, B = map(int, input().split())
+print(A*B-(A+B-1))

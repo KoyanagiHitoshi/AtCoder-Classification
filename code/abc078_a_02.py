@@ -1,2 +1,2 @@
-x,y=input().split()
-print("=><"[x>y or -(x<y)])
+X,Y=input().split()
+print("<" if X<Y else "=" if X==Y else ">")

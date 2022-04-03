@@ -1,3 +1,4 @@
-input()
-k=int(input())
-print(sum(min(x,k-x)*2 for x in map(int,input().split())))
+N=int(input())
+K=int(input())
+X=list(map(int,input().split()))
+print(sum(min(x,K-x)*2 for x in X))

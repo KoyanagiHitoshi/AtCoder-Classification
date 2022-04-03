@@ -1,2 +1,2 @@
-x,a,b=map(int,input().split())
-print('dangerous'if x<b-a else'safe' if a<b else'delicious')
+X,A,B=map(int,input().split())
+print("dangerous" if X<B-A else "safe" if A<B else "delicious")

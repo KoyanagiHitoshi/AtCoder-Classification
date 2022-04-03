@@ -1,4 +1,9 @@
 from collections import Counter
-n,k=map(int,input().split())
-a=Counter(input().split())
-print(sum(sorted(a.values(),reverse=True)[k:]))
+N,K=map(int,input().split())
+A=Counter(input().split())
+ball=0
+numbers,counts=zip(*A.most_common())
+for num,(key,count) in enumerate(zip(numbers,counts)):
+    if num>K-1:
+        ball+=count
+print(ball)

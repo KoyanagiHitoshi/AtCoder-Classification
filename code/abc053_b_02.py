@@ -1,2 +1,2 @@
 s=input()
-print(s.rfind("Z")-s.find("A")+1)
+print((len(s)-s[::-1].find("Z"))-s.find("A"))

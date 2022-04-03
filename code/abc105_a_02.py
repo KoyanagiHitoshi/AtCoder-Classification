@@ -1,1 +1,2 @@
-print((eval(input().replace(" ","%"))>0)+0)
+N,K=map(int,input().split())
+print((N%K>0)+0)

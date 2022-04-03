@@ -1,2 +1,2 @@
-a,b,c,d=[int(input()) for _ in range(4)]
-print(min(a,b)+min(c,d))
+A, B, C, D = [int(input()) for i in range(4)]
+print(min(A, B)+min(C, D))

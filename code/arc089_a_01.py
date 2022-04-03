@@ -1,8 +1,9 @@
-n=int(input())
-l=[list(map(int,input().split())) for i in range(n)]
-count=0
-for i in range(n):
-    t,x,y=l[i][0],l[i][1],l[i][2]
-    if t>=x+y and t%2==(x+y)%2:
-        count+=1
-print("Yes" if count==n else "No")
+N = int(input())
+count = 0
+T, X, Y = 0, 0, 0
+for i in range(N):
+    t, x, y = map(int, input().split())
+    if abs(x-X)+abs(y-Y) <= t-T and t % 2 == (x+y) % 2:
+        count += 1
+    T, X, Y = t, x, y
+print("Yes" if count == N else "No")

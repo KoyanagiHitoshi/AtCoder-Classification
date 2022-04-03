@@ -1,7 +1,16 @@
 # Change Log
 
+## [v1.3.0](https://github.com/KoyanagiHitoshi/AtCoder/releases/tag/v1.3.0) / 2022-04-03
+
+* [#8](https://github.com/KoyanagiHitoshi/AtCoder/pull/8) update CHANGELOG.md
+* [#8](https://github.com/KoyanagiHitoshi/AtCoder/pull/8) update README.md 
+* [#8](https://github.com/KoyanagiHitoshi/AtCoder/pull/8) add code
+
 ## [v1.2.1](https://github.com/KoyanagiHitoshi/AtCoder/releases/tag/v1.2.1) / 2020-04-13
 
+* [#7](https://github.com/KoyanagiHitoshi/AtCoder/pull/7) update CHANGELOG.md 
+* [#7](https://github.com/KoyanagiHitoshi/AtCoder/pull/7) update LICENSE
+* [#7](https://github.com/KoyanagiHitoshi/AtCoder/pull/7) update README.md 
 * [#7](https://github.com/KoyanagiHitoshi/AtCoder/pull/7) add code
 
 ## [v1.2.0](https://github.com/KoyanagiHitoshi/AtCoder/releases/tag/v1.2.0) / 2020-04-08

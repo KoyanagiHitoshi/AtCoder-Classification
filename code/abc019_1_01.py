@@ -1,1 +1,2 @@
-print(sorted(map(int,input().split()))[1])
+abc=map(int,input().split())
+print(sorted(abc)[1])

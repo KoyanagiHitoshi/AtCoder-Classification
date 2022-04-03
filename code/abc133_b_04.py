@@ -1,5 +1,7 @@
-import numpy as np
-from itertools import combinations
 N,D=map(int,input().split())
 X=[list(map(int,input().split())) for i in range(N)]
-print(sum((sum(diff**2 for diff in np.array(y)-np.array(z))**.5).is_integer() for y,z in combinations(X,2)))
+count=0
+for i in range(N):
+    for j in range(i+1,N):
+        count+=(sum((y-z)**2 for y,z in zip(X[i],X[j]))**.5).is_integer()
+print(count)

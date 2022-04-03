@@ -1,5 +1,6 @@
+import bisect
 N=int(input())
 A=[int(input()) for i in range(N)]
-B={a:i for (i,a) in enumerate(sorted(set(A)))}
+B=sorted(set(A))
 for a in A:
-    print(B[a])
+    print(bisect.bisect_left(B,a))

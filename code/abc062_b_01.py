@@ -1,4 +1,5 @@
-h,w=map(int,input().split())
-print("#"*(w+2))
-for i in range(h):print("#"+input()+"#")
-print("#"*(w+2))
+H,W=map(int,input().split())
+print("#"*(W+2))
+for i in range(H):
+    print("#"+input()+"#")
+print("#"*(W+2))

@@ -1,3 +1,3 @@
-n=int(input())
-p=[int(input()) for i in range(n)]
-print(sum(p)-max(p)//2)
+N=int(input())
+p=sorted(int(input()) for i in range(N))
+print(sum(p[:-1])+p[-1]//2)

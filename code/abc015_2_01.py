@@ -1,3 +1,4 @@
-n=int(input())
-l=[int(_) for _ in input().split()]
-print(-(-sum(l)//(n-l.count(0))))
+import math
+N=int(input())
+A=list(map(int,input().split()))
+print(math.ceil(sum(A)/(N-A.count(0))))

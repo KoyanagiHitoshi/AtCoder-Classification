@@ -1,2 +1,3 @@
 import calendar
-print("YES" if calendar.isleap(int(input())) else "NO")
+Y=int(input())
+print("YES" if calendar.isleap(Y) else "NO")

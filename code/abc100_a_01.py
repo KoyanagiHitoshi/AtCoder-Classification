@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print("Yay!" if a<9 and b<9 else ":(")
+A,B=map(int,input().split())
+print("Yay!" if A<=8 and B<=8 else ":(")

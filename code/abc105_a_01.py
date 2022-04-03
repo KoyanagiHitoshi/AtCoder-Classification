@@ -1,2 +1,2 @@
-n,k=map(int,input().split())
-print("1" if n%k else "0")
+N,K=map(int,input().split())
+print(0 if N%K==0 else 1)

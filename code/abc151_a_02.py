@@ -1,2 +1,2 @@
-s="abcdefghijklmnopqrstuvwxyz"
-print(s[s.index(input())+1])
+C=input()
+print(bytes(c+1 for c in C.encode()).decode())

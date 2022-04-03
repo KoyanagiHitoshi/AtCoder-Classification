@@ -1,9 +1,9 @@
-h,w=map(int,input().split())
-pattern=[h//2+w//3+1,h//3+w//2+1,h,w]
-if h%3==0 or w%3==0:
+H,W=map(int,input().split())
+pattern=[H//2+W//3+1,H//3+W//2+1,H,W]
+if H%3==0 or W%3==0:
     pattern+=[0]
-if h%2==0:
-    pattern+=[h//2]
-if w%2==0:
-    pattern+=[w//2]
+if H%2==0:
+    pattern+=[H//2]
+if W%2==0:
+    pattern+=[W//2]
 print(min(pattern))

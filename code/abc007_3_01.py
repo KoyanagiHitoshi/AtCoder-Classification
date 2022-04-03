@@ -1,17 +1,18 @@
-h,w=map(int,input().split())
+from collections import deque
+R,C=map(int,input().split())
 sy,sx=map(int,input().split())
 gy,gx=map(int,input().split())
-grid=[list(input()) for x in range(h)]
-grid[sy-1][sx-1]=0
-loc=[[sy-1,sx-1]]
-for k in range(1,h*w):
-    next_loc=[]
-    for y,x in loc:
-        for i,j in ([1,0],[-1,0],[0,1],[0,-1]):
-            if grid[y+i][x+j]=='.':
-                grid[y+i][x+j]=k
-                next_loc.append([y+i,x+j])
-    loc=next_loc
-    if [gy-1,gx-1] in loc:
-        break
-print(k)
+c=[list(input()) for i in range(R)]
+visited=[[-1]*C for r in range(R)]
+visited[sy-1][sx-1]=0
+queue=deque([[sy-1,sx-1]])
+direction=[[0,1],[1,0],[0,-1],[-1,0]]
+while queue:
+    y,x=queue.popleft()
+    if [y,x]==[gy-1,gx-1]:
+        print(visited[y][x])
+    for dy,dx in direction:
+        next_y,next_x=y+dy,x+dx
+        if c[next_y][next_x]=="." and visited[next_y][next_x]==-1:
+            visited[next_y][next_x]=visited[y][x]+1
+            queue.append([next_y,next_x])

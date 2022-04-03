@@ -1,9 +1,9 @@
-n=int(input())
+N=int(input())
 H=list(map(int,input().split()))
-p=0
 count=0
+base=0
 for h in H:
-    if p<=h:
-        p=max(p,h)
+    if base<=h:
         count+=1
+        base=h
 print(count)

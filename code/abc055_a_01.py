@@ -1,2 +1,2 @@
-n=int(input())
-print(n*800-200*(n//15))
+N=int(input())
+print(N*800-N//15*200)

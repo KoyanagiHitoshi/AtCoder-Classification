@@ -1,1 +1,2 @@
-print(~eval(input().replace(" ","-"))+2)
+S,T=map(int,input().split())
+print(T-S+1)

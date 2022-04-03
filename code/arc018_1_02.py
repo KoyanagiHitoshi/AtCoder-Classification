@@ -1,1 +1,1 @@
-print(eval(input().replace(" ","**2*"))/1e4)
+print(eval(input().replace(" ","**2*"))/10**4)

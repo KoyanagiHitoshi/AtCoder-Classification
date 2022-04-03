@@ -1,1 +1,3 @@
-print(chr(ord(input())+1))
+C = input()
+letters = "abcdefghijklmnopqrstuvwxyz"
+print(letters[letters.index(C)+1])

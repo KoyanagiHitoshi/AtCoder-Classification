@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print(C//min(A, B))
+A,B,C=map(int,input().split())
+print(max(C//A,C//B))

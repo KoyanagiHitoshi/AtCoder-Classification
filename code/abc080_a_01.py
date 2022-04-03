@@ -1,2 +1,2 @@
-n,a,b=map(int,input().split())
-print(n*a if n*a<b else b)
+N, A, B = map(int, input().split())
+print(min(N*A, B))

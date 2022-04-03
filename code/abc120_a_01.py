@@ -1,2 +1,2 @@
-a,b,c=map(int,input().split())
-print(c if a*c<=b else b//a)
+A, B, C = map(int, input().split())
+print(min(C, B//A))

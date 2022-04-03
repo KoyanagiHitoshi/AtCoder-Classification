@@ -1,1 +1,3 @@
-print("".join(i for i in input() if i.isdigit()))
+import re
+S=input()
+print(re.sub("\D","",S))

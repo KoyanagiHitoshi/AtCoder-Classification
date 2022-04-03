@@ -1,2 +1,2 @@
-n=int(input())
-print(n*(n+1)//2)
+N=int(input())
+print(N*(N+1)//2)

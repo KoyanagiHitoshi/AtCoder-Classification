@@ -1,1 +1,2 @@
-print("No" if eval(input().replace(" ","*"))%2==0 else "Yes")
+AB=input()
+print("No" if "2" in AB else "Yes")

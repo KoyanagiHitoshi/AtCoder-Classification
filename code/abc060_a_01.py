@@ -1,2 +1,2 @@
-a,b,c=input().split()
-print("YES" if a[-1]==b[0] and b[-1]==c[0] else "NO")
+A, B, C = input().split()
+print("YES" if A[-1] == B[0] and B[-1] == C[0] else "NO")

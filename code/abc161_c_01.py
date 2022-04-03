@@ -1,2 +1,2 @@
 N,K=map(int,input().split())
-print(min(N%K,abs(K-N%K)))
+print(min(N%K,K-N%K))

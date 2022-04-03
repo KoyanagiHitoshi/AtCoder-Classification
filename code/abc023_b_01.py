@@ -1,4 +1,4 @@
 import re
-n=int(input())
-f=re.match(r"^((bcabca)*b|(cabcab)*cabca|(abcabc)*abc)$",input())
-print(n//2 if f else -1)
+N=int(input())
+S=input()
+print(N//2 if re.match(r"^((bcabca)*b|(cabcab)*cabca|(abcabc)*abc)$",S) else -1)

@@ -1,3 +1,3 @@
-h1=int(input())
-h2=int(input())
-print(h1-h2)
+H1=int(input())
+H2=int(input())
+print(H1-H2)

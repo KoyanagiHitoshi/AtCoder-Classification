@@ -1,10 +1,12 @@
 N,Q=map(int,input().split())
-O=[0]*(N+1)
+check=[0]*(N+1)
 for i in range(Q):
     l,r=map(int,input().split())
-    O[l-1]+=1
-    O[r]-=1
+    check[l-1]+=1
+    check[r]-=1
+for i in range(1,N):
+    check[i]+=check[i-1]
+othello=""
 for i in range(N):
-    if i>0:O[i]+=O[i-1]
-    print(O[i]%2,end="")
-print()
+    othello+=str(check[i]%2)
+print(othello)

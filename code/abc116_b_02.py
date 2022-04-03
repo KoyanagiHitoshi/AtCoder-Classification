@@ -1,7 +1,9 @@
-S=int(input())
-l=[]
-while (S not in l):
-    l.append(S)
-    if S%2==0:S//=2
-    else:S=3*S+1
-print(len(l)+1)
+s=int(input())
+a=[]
+while s not in a:
+    a.append(s)
+    if s%2==0:
+        s//=2
+    else:
+        s=3*s+1
+print(len(a)+1)

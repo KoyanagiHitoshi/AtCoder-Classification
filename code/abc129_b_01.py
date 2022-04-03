@@ -1,5 +1,3 @@
-n=int(input())
-w=list(map(int,input().split()))
-m=sum(w)
-for i in range(n):m=min(m,abs(sum(w[:i+1])-sum(w[i+1:])))
-print(m)
+N=int(input())
+W=list(map(int,input().split()))
+print(min(abs(sum(W[:i+1])-sum(W[i+1:])) for i in range(N)))

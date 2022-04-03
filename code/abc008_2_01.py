@@ -1,2 +1,4 @@
 from collections import Counter
-print(Counter([input() for i in range(int(input()))]).most_common()[0][0])
+N=int(input())
+S=[input() for i in range(N)]
+print(Counter(S).most_common()[0][0])

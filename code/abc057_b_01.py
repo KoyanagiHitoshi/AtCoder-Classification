@@ -1,11 +1,6 @@
-n,m=map(int,input().split())
-a=[[int(j) for j in input().split()] for i in range(n)]
-c=[[int(j) for j in input().split()] for i in range(m)]
-for i in range(n):
-    d=10e8
-    b=0
-    for j in range(m):
-        if abs(a[i][0]-c[j][0])+abs(a[i][1]-c[j][1])<d:
-            d=abs(a[i][0]-c[j][0])+abs(a[i][1]-c[j][1])
-            b=j+1
-    print(b)
+N,M=map(int,input().split())
+ab=[[int(j) for j in input().split()] for i in range(N)]
+cd=[[int(j) for j in input().split()] for i in range(M)]
+for a,b in ab:
+    distance=[abs(a-c)+abs(b-d) for c,d in cd]
+    print(distance.index(min(distance))+1)

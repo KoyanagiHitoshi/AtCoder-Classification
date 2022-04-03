@@ -1,1 +1,3 @@
-print(-~sum(map(int,input().split()))//2)
+import math
+a,b=map(int,input().split())
+print(math.ceil((a+b)/2))

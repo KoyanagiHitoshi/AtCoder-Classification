@@ -1,2 +1,2 @@
-s=input()
-print("no" if len(s)-len(set(s)) else "yes")
+S = input()
+print("no" if len(S)-len(set(S)) else "yes")

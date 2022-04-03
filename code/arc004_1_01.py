@@ -1,10 +1,11 @@
 N=int(input())
-p=[]
+coordinate=[]
 for i in range(N):
     x,y=map(int,input().split())
-    p.append([x,y])
-d=0
+    coordinate.append([x,y])
+distance=0
 for i in range(N):
     for j in range(N):
-        if i!=j:d=max(d,((p[i][0]-p[j][0])**2+(p[i][1]-p[j][1])**2)**.5)
-print(d)
+        if i!=j:
+            distance=max(distance,((coordinate[i][0]-coordinate[j][0])**2+(coordinate[i][1]-coordinate[j][1])**2)**.5)
+print(distance)

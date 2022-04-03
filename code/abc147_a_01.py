@@ -1,2 +1,2 @@
-A=map(int,input().split())
-print("bust" if sum(A)>=22 else "win")
+A = sum(map(int, input().split()))
+print("bust" if A >= 22 else "win")

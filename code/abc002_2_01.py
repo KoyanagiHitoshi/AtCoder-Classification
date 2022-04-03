@@ -1,2 +1,3 @@
 import re
-print(re.sub("[aiueo]","",input()))
+W=input()
+print(re.sub("[aiueo]","",W))

@@ -1,8 +1,4 @@
 from collections import Counter
-n,k=map(int,input().split())
-a=Counter(input().split())
-ans=0
-keys,counts=zip(*a.most_common())
-for num,(key,count) in enumerate(zip(keys,counts)):
-    if int(num)>k-1:ans+=count
-print(ans)
+N,K=map(int,input().split())
+A=Counter(input().split())
+print(sum(sorted(A.values(),reverse=True)[K:]))

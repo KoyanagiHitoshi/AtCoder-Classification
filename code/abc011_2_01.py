@@ -1,2 +1,2 @@
-s=input()
-print(s[0].upper()+s[1:len(s)].lower())
+S=input()
+print(S[0].upper()+S[1:].lower())

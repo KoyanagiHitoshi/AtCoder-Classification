@@ -1,2 +1,9 @@
-n=int(input())
-print("Bad" if n<60 else "Good" if n<90 else "Great" if n<100 else "Perfect")
+N = int(input())
+if N < 60:
+    print("Bad")
+elif N < 90:
+    print("Good")
+elif N < 100:
+    print("Great")
+else:
+    print("Perfect")

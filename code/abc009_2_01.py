@@ -1,1 +1,3 @@
-print(sorted(list(set([int(input()) for _ in range(int(input()))])))[::-1][1])
+N=int(input())
+A=[int(input()) for i in range(N)]
+print(sorted(set(A))[-2])

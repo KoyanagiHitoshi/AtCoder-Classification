@@ -1,5 +1,5 @@
-n,m=map(int,input().split())
-a=[input() for _ in range(n)]
-b=[input() for _ in range(m)]
-r=any([r[j:j+m] for r in a[i:i+m]]==b for i in range(n-m+1) for j in range(n-m+1))
-print('Yes' if r else 'No')
+N,M=map(int,input().split())
+A=[input() for i in range(N)]
+B=[input() for i in range(M)]
+judge=any([line[j:j+M] for line in A[i:i+M]]==B for i in range(N-M+1) for j in range(N-M+1))
+print("Yes" if judge else "No")

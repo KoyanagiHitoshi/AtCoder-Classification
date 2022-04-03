@@ -1,1 +1,2 @@
-print("A"+input()[8]+"C")
+s = input()
+print("A"+s[8]+"C")

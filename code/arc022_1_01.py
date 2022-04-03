@@ -1,2 +1,3 @@
 import re
-print("YES" if re.search(".*[i|I].*[c|C].*[t|T]",input()) else "NO")
+S=input()
+print("YES" if re.search("i.*c.*t",S.lower()) else "NO")

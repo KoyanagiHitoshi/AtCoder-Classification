@@ -1,1 +1,2 @@
-print("\n".join(input() for _ in range(4))[::-1])
+c=[input() for i in range(4)]
+print("\n".join(c)[::-1])

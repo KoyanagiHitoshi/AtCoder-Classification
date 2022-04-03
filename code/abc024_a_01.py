@@ -1,3 +1,3 @@
-a,b,c,k=map(int,input().split())
-s,t=map(int,input().split())
-print(a*s+b*t-(s+t)*c*(s+t>=k))
+A,B,C,K=map(int,input().split())
+S,T=map(int,input().split())
+print(A*S+B*T-(S+T)*C*(S+T>=K))

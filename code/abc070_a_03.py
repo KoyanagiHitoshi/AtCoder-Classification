@@ -1,2 +1,2 @@
-n=input()
-print("Yes" if n[0]==n[2] else "No")
+N = input()
+print("Yes" if N == N[::-1] else "No")

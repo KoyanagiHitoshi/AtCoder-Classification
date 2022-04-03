@@ -1,2 +1,3 @@
-s=input()
-print(s.count("A"),s.count("B"),s.count("C"),s.count("D"),s.count("E"),s.count("F"))
+S = input()
+print(S.count("A"), S.count("B"), S.count("C"),
+      S.count("D"), S.count("E"), S.count("F"))

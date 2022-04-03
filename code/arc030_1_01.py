@@ -1,3 +1,3 @@
-N=int(input())
-K=int(input())
-print("YES" if K<=N//2 else "NO")
+n=int(input())
+k=int(input())
+print("YES" if k<=n//2 else "NO")

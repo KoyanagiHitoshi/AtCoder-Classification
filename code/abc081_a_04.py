@@ -1,1 +1,2 @@
-print(input().count("1"))
+s=input()
+print(s.count("1"))

@@ -1,14 +1,18 @@
-n,a,b=map(int,input().split())
-x=0
-for i in range(n):
+N,A,B=map(int,input().split())
+position=0
+for i in range(N):
     s,d=input().split()
     d=int(d)
     if s=="East":
-        if d<a:d=a
-        if d>b:d=b
+        if d<A:
+            d=A
+        if d>B:
+            d=B
     else:
-        if d<a:d=a
-        if d>b:d=b
+        if d<A:
+            d=A
+        if d>B:
+            d=B
         d=-d
-    x+=d
-print("0" if x==0 else "East "+str(x) if x>0 else "West "+str(abs(x)))
+    position+=d
+print("0" if position==0 else "East "+str(position) if position>0 else "West "+str(abs(position)))

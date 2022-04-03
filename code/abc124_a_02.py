@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print(max(2*a-1,2*b-1,a+b))
+A,B=map(int,input().split())
+print(max(2*A-1,2*B-1,A+B))

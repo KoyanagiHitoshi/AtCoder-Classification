@@ -1,2 +1,2 @@
-n=int(input())
-print(int(n**.5)**2)
+N = int(input())
+print(int(N**(1/2))**2)

@@ -1,2 +1,2 @@
-A, B, K = map(int, input().split())
-print(A-K, B) if K <= A else print(0, B-(K-A)) if K <= A+B else print(0, 0)
+A,B,K=map(int,input().split())
+print(max(0,A-K),max(0,B-max(0,K-A)))

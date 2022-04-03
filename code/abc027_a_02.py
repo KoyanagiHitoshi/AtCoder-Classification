@@ -1,1 +1,2 @@
-print(eval(input().replace(" ","^")))
+l=input()
+print(eval(l.replace(" ","^")))

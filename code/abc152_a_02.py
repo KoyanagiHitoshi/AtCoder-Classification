@@ -1,2 +1,2 @@
-NM=input().split()
-print("Yes" if len(set(NM))==1 else "No")
+N,M=input().split()
+print("Yes" if N==M else "No")

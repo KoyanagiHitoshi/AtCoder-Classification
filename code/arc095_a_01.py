@@ -1,7 +1,7 @@
 N=int(input())
 X=list(map(int,input().split()))
-S=sorted(X)
-b=S[N//2]
-a=S[(N//2)-1]
-for i in X:
-    print(b if i<b else a)
+sort=sorted(X)
+left=sort[(N//2)-1]
+right=sort[N//2]
+for x in X:
+    print(left if left<x else right)

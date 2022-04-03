@@ -1,5 +1,11 @@
-t=""
-for x in input():
-    if x=="B":t=t[:-1]
-    else:t+=x
-print(t)
+editor=[]
+s=input()
+for key in s:
+    if key=="B":
+        try:
+            editor.pop()
+        except:
+            pass
+    else:
+        editor.append(key)
+print("".join(editor))

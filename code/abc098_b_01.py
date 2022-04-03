@@ -1,8 +1,3 @@
-n=int(input())
-s=input()
-c=0
-for i in range(1,n):
-    p=set(s[:i])
-    b=set(s[i:])
-    c=max(c,len(p&b))
-print(c)
+N=int(input())
+S=input()
+print(max(len(set(S[:i])&set(S[i:])) for i in range(N)))

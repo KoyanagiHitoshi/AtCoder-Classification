@@ -1,2 +1,3 @@
-a,b,c,d=map(int,input().split())
-print(max(0,min(b,d)-max(a,c)))
+A,B,C,D=map(int,input().split())
+time=len(set(map(int,range(A,B+1)))&set(map(int,range(C,D+1))))-1
+print(0 if time==-1 else time)

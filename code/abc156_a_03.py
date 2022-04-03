@@ -1,2 +1,2 @@
-N, R = map(int, input().split())
-print(R if N >= 10 else R+100*(10-N))
+N,R=map(int,input().split())
+print(R+100*max(0,10-N))

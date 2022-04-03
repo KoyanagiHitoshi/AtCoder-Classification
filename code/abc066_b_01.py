@@ -1,6 +1,6 @@
-s=input()
-for i in range(1,len(s)):
-    t=s[:len(s)-i]
-    if t[len(t)//2:]==t[:len(t)//2]:
-        print(len(t))
-        exit()
+S=list(input())
+while len(S)!=0:
+    S.pop()
+    if len(S)%2==0 and S[:len(S)//2]==S[len(S)//2:]:
+        print(len(S))
+        break

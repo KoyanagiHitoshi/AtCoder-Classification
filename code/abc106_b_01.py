@@ -1,10 +1,10 @@
-n=int(input())
-p=0
-for i in range(105,n+1,2):
-    c=0
+N=int(input())
+count=0
+for i in range(105,N+1,2):
+    divisor=0
     for j in range(1,i+1):
-        if i%j==0:
-            c+=1
-    if c==8:
-        p+=1
-print(p)
+        if(i%j==0):
+            divisor+=1
+    if(divisor==8):
+        count+=1
+print(count)

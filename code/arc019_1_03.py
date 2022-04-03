@@ -1,4 +1,2 @@
 S=input()
-for b,a in zip("ODIZSB","001258"):
-    S=S.replace(b,a)
-print(S)
+print(S.translate(str.maketrans("ODIZSB","001258")))

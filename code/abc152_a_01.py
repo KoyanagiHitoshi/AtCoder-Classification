@@ -1,2 +1,2 @@
-N,M=input().split()
-print("Yes" if N==M else "No")
+N, M = input().split()
+print("Yes" if N == M else "No")

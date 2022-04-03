@@ -1,3 +1,3 @@
-S=input()
-s=list(set(S))
-print("Yes" if len(s)==2 and S.count(s[0])==S.count(s[1])==2 else "No")
+from collections import Counter
+S=Counter(input())
+print("Yes" if len(S)==2 and len(set(list(S.values())))==1 else "No")

@@ -1,2 +1,3 @@
-l=[int(input()) for _ in range(int(input()))]
-print(sum(l)-int(max(l)/2))
+N = int(input())
+p = [int(input()) for i in range(N)]
+print(sum(p)-max(p)//2)

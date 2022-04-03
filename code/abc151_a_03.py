@@ -1,3 +1,3 @@
-C = input()
-letters = "abcdefghijklmnopqrstuvwxyz"
+C=input()
+letters="abcdefghijklmnopqrstuvwxyz"
 print(letters[letters.index(C)+1])

@@ -1,3 +1,3 @@
-input()
-l=sorted(map(int,input().split()))[::-1]
-print(sum(l[::2])-sum(l[1::2]))
+N = int(input())
+a = sorted(map(int, input().split()))[::-1]
+print(sum(a[::2])-sum(a[1::2]))

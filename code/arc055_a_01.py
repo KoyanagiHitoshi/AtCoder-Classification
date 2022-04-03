@@ -1,1 +1,2 @@
-print(10**int(input())+7)
+N = int(input())
+print(10**N+7)

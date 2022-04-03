@@ -1,3 +1,3 @@
-input()
-a=sorted(map(int,input().split()))
-print(a[-1]-a[0])
+N=int(input())
+A=sorted(map(int,input().split()))
+print(A[-1]-A[0])

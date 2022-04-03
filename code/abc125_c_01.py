@@ -1,8 +1,8 @@
-from fractions import gcd
+import math
 N=int(input())
 A=list(map(int,input().split()))
-R,L=[0],[0]
+right,left=[0],[0]
 for i in range(N-1):
-    R+=[gcd(R[i],A[i])]
-    L+=[gcd(L[i],A[-i-1])]
-print(max(gcd(R[i],L[-i-1]) for i in range(N)))
+    right+=[math.gcd(right[i],A[i])]
+    left+=[math.gcd(left[i],A[-i-1])]
+print(max(math.gcd(right[i],left[-i-1]) for i in range(N)))

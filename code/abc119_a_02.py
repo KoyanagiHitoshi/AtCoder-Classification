@@ -1,2 +1,2 @@
-y,m,d=map(int,input().split("/"))
-print("Heisei" if y<=2019 and m<=4 and d<=30 else "TBD")
+S=input()
+print("Heisei" if S<="2019/04/30" else "TBD")

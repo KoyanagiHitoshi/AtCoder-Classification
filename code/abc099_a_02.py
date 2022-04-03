@@ -1,1 +1,2 @@
-print(['ABC','ABD'][int(input())>999])
+N=int(input())
+print("ABC" if N<1000 else "ABD")

@@ -1,3 +1,3 @@
-a=int(input())
-b=int(input())
-print("GREATER" if a>b else "LESS" if a<b else "EQUAL")
+A = int(input())
+B = int(input())
+print("GREATER" if A > B else "LESS" if A < B else "EQUAL")

@@ -1,2 +1,2 @@
-k=int(input())
-print((k//2)*((k+1)//2))
+K=int(input())
+print(K**2//4)

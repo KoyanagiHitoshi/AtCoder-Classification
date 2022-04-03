@@ -1,3 +1,3 @@
-s = sorted(input())
-t = sorted(input())[::-1]
-print("Yes" if s < t else "No")
+s=input()
+t=input()
+print("Yes" if sorted(s)<sorted(t)[::-1] else "No")

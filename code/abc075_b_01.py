@@ -1,10 +1,10 @@
-h,w=map(int,input().split())
-s=[input() for _ in range(h)]
-for i in range(h):
-    l=""
-    for j in range(w):
-        if s[i][j]=="#":
-            l+="#"
+H,W=map(int,input().split())
+S=[input() for i in range(H)]
+for i in range(H):
+    line=""
+    for j in range(W):
+        if S[i][j]=="#":
+            line+="#"
         else:
-            l+=str(sum([t[max(0,j-1):min(w,j+2)].count("#") for t in s[max(0,i-1):min(h,i+2)]]))
-    print(l)
+            line+=str(sum([t[max(0,j-1):min(W,j+2)].count("#") for t in S[max(0,i-1):min(H,i+2)]]))
+    print(line)

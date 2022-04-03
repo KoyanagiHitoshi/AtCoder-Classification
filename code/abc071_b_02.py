@@ -1,3 +1,2 @@
-letters="abcdefghijklmnopqrstuvwxyz"
-ans=sorted(set(letters)^set(input()))
-print("None" if len(ans)==0 else ans[0])
+S=input()
+print(min(set(map(chr,range(97,123)))-set(S) or ["None"]))

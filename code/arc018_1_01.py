@@ -1,2 +1,2 @@
-H,B=map(float,input().split())
-print(H**2*B/1e4)
+Height,BMI=map(float,input().split())
+print(Height**2*BMI/10**4)

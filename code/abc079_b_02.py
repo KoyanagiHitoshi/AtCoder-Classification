@@ -1,5 +1,5 @@
 N=int(input())
-a,b=2,1
-for i in range(N):
-    a,b=b,a+b
-print(a)
+L=[2,1]
+for i in range(2,N+3):
+    L.append(L[i-2]+L[i-1])
+print(L[N])

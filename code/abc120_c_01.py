@@ -1,6 +1,12 @@
-s=list(input())
-n=len(s)
-zero=s.count("0")
-one=s.count("1")
-if n==1:print(0)
-else:print(2*min(zero,one))
+S=input()
+stack=[]
+count=0
+for s in S:
+    if not stack:
+        stack.append(s)
+    elif stack[-1]!=s:
+        stack.pop()
+        count+=2
+    else:
+        stack.append(s)
+print(count)

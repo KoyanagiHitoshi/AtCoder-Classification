@@ -1,2 +1,2 @@
 N=int(input())
-print(N if N%2==0 else N*2)
+print([N,N*2][N%2])

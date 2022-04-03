@@ -1,2 +1,2 @@
-a,b,c,d=map(int,input().split())
-print(['Balanced','Left','Right'][(a+b>c+d)-(a+b<c+d)])
+A,B,C,D=map(int,input().split())
+print(["Balanced","Left","Right"][(A+B>C+D)-(A+B<C+D)])

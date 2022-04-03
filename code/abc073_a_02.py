@@ -1,5 +1,2 @@
-n=input()
-if "9" in n:
-    print("Yes")
-else:
-    print("No")
+N = input()
+print("Yes" if "9" in N else "No")

@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print("Impossible" if a*b*(a+b)%3 else "Possible")
+A,B=map(int,input().split())
+print("Possible" if A*B*(A+B)%3==0 else "Impossible")

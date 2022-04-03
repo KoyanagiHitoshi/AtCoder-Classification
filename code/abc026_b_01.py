@@ -1,2 +1,5 @@
-r=sorted(int(input())**2 for i in range(int(input())))[::-1]
-print((sum(r[::2])-sum(r[1::2]))*355/113)
+import math
+N=int(input())
+R=[int(input()) for i in range(N)]
+R=[r**2 for r in sorted(R)[::-1]]
+print((sum(R[::2])-sum(R[1::2]))*math.pi)

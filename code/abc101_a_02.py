@@ -1,1 +1,2 @@
-print(2*input().count('+')-4)
+S=input()
+print(S.count("+")-S.count("-"))

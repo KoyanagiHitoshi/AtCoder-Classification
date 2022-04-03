@@ -1,2 +1,2 @@
-n=int(input())
-print(2*n if n%2 else n)
+N=int(input())
+print(N if N%2==0 else N*2)
