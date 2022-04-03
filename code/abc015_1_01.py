@@ -1,1 +1,0 @@
-print(max(input(),input(),key=len))

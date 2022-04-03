@@ -1,1 +1,0 @@
-print("0ABCDE".index(input()))

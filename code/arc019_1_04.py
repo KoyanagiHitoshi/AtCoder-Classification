@@ -1,1 +1,0 @@
-print(input().translate(str.maketrans("ODIZSB","001258")))

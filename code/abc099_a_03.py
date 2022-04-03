@@ -1,1 +1,0 @@
-print(['ABC','ABD'][len(input())>3])

@@ -1,5 +1,0 @@
-s=list(input())
-t=list(input())
-S=sorted(map(s.count,set(s)))
-T=sorted(map(t.count,set(t)))
-print("Yes" if S==T else "No")

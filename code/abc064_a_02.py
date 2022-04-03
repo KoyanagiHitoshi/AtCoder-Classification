@@ -1,1 +1,0 @@
-print("NO" if int(input()[::2])%4 else "YES")
