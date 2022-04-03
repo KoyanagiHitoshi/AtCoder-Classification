@@ -1,26 +1,16 @@
+![](https://img.shields.io/badge/Python-3.8.2-informational.svg)
+![](https://img.shields.io/badge/PyPy3-7.3.0-informational.svg)
+
 # AtCoder
 
-This repository is stored the code I solved at [AtCoder](https://atcoder.jp/).
+This repository publishes the code that solved the task at [AtCoder](https://atcoder.jp/).
 
-## Language
-
-I use the following language at AtCoder.
-
-```text
-Python (3.8.2) / Python3 (3.4.3)
-```
-
-## Install
+## Clone 
 
 ```bash
 $ git clone https://github.com/KoyanagiHitoshi/AtCoder.git
 ```
 
-## Licence
+## Document
 
-[MIT](https://github.com/KoyanagiHitoshi/AtCoder/blob/master/LICENSE)
-
-## Author
-
-[KoyanagiHitoshi](https://github.com/KoyanagiHitoshi)
-
+* [AtCoderの問題を分類しました](https://qiita.com/KoyanagiHitoshi/items/32dc42d8c5ee75339e54)
