@@ -1,0 +1,7 @@
+N=input()
+c=input()
+one=c.count("1")
+two=c.count("2")
+three=c.count("3")
+four=c.count("4")
+print(max(one,two,three,four),min(one,two,three,four))

@@ -1,0 +1,1 @@
+print("\n".join(sorted(map(str,range(1,1001)))))

@@ -1,0 +1,1 @@
+print(["ABC","ARC","AGC"][(int(input())+400)//1600])
