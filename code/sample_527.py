@@ -1,0 +1,6 @@
+print("-2.5:", round(-2.5))
+print("-1.5:", round(-1.5))
+print("-0.5:", round(-0.5))
+print(" 0.5:", round(0.5))
+print(" 1.5:", round(1.5))
+print(" 2.5:", round(2.5))

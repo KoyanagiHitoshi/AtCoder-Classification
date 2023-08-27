@@ -3,14 +3,10 @@
 
 # AtCoder Classification
 
-This repository publishes the code that solved the task at [AtCoder](https://atcoder.jp/).
+This repository publishes codes listed in [AtCoderの問題を分類しました](https://zenn.dev/koyanagihitoshi?tab=books).
 
 ## Clone 
 
 ```bash
 $ git clone https://github.com/KoyanagiHitoshi/AtCoder-Classification.git
 ```
-
-## Document
-
-* [AtCoderの問題を分類しました](https://qiita.com/KoyanagiHitoshi/items/32dc42d8c5ee75339e54)
