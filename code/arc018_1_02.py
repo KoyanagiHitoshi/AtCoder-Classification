@@ -1,1 +1,0 @@
-print(eval(input().replace(" ","**2*"))/10**4)

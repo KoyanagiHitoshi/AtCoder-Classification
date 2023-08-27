@@ -1,6 +1,0 @@
-N=int(input())
-A=input().split()
-B=input().split()
-count=sum(a==b for a,b in zip(A,B))
-print(count)
-print(len(set(A)&set(B))-count)
